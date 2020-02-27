@@ -17,5 +17,4 @@ def print_first_directors_movie_titles
   end
 end
 
-pretty_print_nds(directors_database)
 print_first_directors_movie_titles
