@@ -10,9 +10,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  index_count=0 
+  index_count=0
+  output = ""
   while directors_database[index_count] do
-     puts directors_database[0][:movies][index_count][:title]
+     output= output.concat(\n + directors_database[0][:movies][index_count][:title])
     index_count+=1 
   end
 end
